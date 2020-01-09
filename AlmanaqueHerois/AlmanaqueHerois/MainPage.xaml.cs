@@ -17,5 +17,30 @@ namespace AlmanaqueHerois
         {
             InitializeComponent();
         }
+
+        private void ButtonMainPageMarvelHerois_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ButtonMainPageMarvelViloes_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ButtonMainPageDCHerois_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ButtonMainPageDCViloes_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ButtonSair_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
