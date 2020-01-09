@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AlmanaqueHerois.Views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -8,8 +9,6 @@ using Xamarin.Forms;
 
 namespace AlmanaqueHerois
 {
-    // Learn more about making custom code visible in the Xamarin.Forms previewer
-    // by visiting https://aka.ms/xamarinforms-previewer
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
@@ -18,9 +17,9 @@ namespace AlmanaqueHerois
             InitializeComponent();
         }
 
-        private void ButtonMainPageMarvelHerois_Clicked(object sender, EventArgs e)
+        private async void ButtonMainPageMarvelHerois_Clicked(object sender, EventArgs e)
         {
-
+           await Navigation.PushAsync(new MarvelHeroisPage());
         }
 
         private void ButtonMainPageMarvelViloes_Clicked(object sender, EventArgs e)
