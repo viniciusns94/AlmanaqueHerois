@@ -3168,7 +3168,7 @@ namespace AlmanaqueHerois.Droid
 			public const int cardMaxElevation = 2130903131;
 			
 			// aapt resource value: 0x7F03005C
-			public const int cardPreventCornerOverlap = 2130903132;
+			public const int cardPreventCornerOverlap = 2130903160;
 			
 			// aapt resource value: 0x7F03005D
 			public const int cardUseCompatPadding = 2130903133;
@@ -3809,7 +3809,7 @@ namespace AlmanaqueHerois.Droid
 			// aapt resource value: 0x7F030131
 			public const int numericModifiers = 2130903345;
 			
-			// aapt resource value: 0x7F030132
+			// aapt resource value: 0x7F030160
 			public const int overlapAnchor = 2130903346;
 			
 			// aapt resource value: 0x7F030133
@@ -4421,7 +4421,7 @@ namespace AlmanaqueHerois.Droid
 			public const int abc_tint_default = 2131034131;
 			
 			// aapt resource value: 0x7F050014
-			public const int abc_tint_edittext = 2131034132;
+			public const int abc_tint_edittext = 2131034160;
 			
 			// aapt resource value: 0x7F050015
 			public const int abc_tint_seek_thumb = 2131034133;
@@ -7619,7 +7619,7 @@ namespace AlmanaqueHerois.Droid
 			public const int CardView = 2131624131;
 			
 			// aapt resource value: 0x7F0E00C4
-			public const int CardView_Dark = 2131624132;
+			public const int CardView_Dark = 2131624160;
 			
 			// aapt resource value: 0x7F0E00C5
 			public const int CardView_Light = 2131624133;
@@ -7951,7 +7951,7 @@ namespace AlmanaqueHerois.Droid
 			// aapt resource value: 0x7F0E0131
 			public const int TextAppearance_MaterialComponents_Headline4 = 2131624241;
 			
-			// aapt resource value: 0x7F0E0132
+			// aapt resource value: 0x7F0E0160
 			public const int TextAppearance_MaterialComponents_Headline5 = 2131624242;
 			
 			// aapt resource value: 0x7F0E0133
@@ -9586,7 +9586,7 @@ namespace AlmanaqueHerois.Droid
 					2130903129,
 					2130903130,
 					2130903131,
-					2130903132,
+					2130903160,
 					2130903133,
 					2130903191,
 					2130903192,
@@ -10705,7 +10705,7 @@ namespace AlmanaqueHerois.Droid
 			// aapt resource value: 11
 			public const int NavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F030132 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F030160 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,

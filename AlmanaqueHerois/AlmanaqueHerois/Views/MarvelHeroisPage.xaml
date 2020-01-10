@@ -3,89 +3,90 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:AlmanaqueHerois"
              mc:Ignorable="d"
              x:Class="AlmanaqueHerois.Views.MarvelHeroisPage"
              Title="Marvel Heróis">
     <ContentPage.Content>
-        <ScrollView>
+        <ScrollView Margin="8">
             <StackLayout>
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="color_black"/>
+                    <Image Source="https://raw.githubusercontent.com/viniciusns94/ImagensApps/master/Herois_marvel/Homem-aranha.png" WidthRequest="160" HeightRequest="160" />
                     <StackLayout>
                         <Label VerticalOptions="EndAndExpand" FontSize="Medium" Text="Nome: Homem-Aranha" />
-                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Descrição: Força e talentos extraordinários, sentidos aguçados e capacidade de subir pelas paredes: tudo isso foi resultado da picada de uma aranha radioativa que o jovem Peter Parker levou. Inteligente desde a infância e um craque em física e química, o Homem-Aranha aguenta 50 vezes seu próprio peso. Ele salta de um prédio a outro em um piscar de olhos, e sua premonição aracnídea antecipa o perigo com bastante antecedência. No momento de agir, o Homem-Aranha recorre a Bio-Teia, que ele desenvolveu, baseada em teias de aranha que lhe permitem não só se pendurar em qualquer objeto como também atravessar a cidade em grande velocidade."/>
+                        <local:CustomLabel_ FontSize="Small" Text="Descrição: Força e talentos extraordinários, sentidos aguçados e capacidade de subir pelas paredes: tudo isso foi resultado da picada de uma aranha radioativa que o jovem Peter Parker levou. Inteligente desde a infância e um craque em física e química, o Homem-Aranha aguenta 50 vezes seu próprio peso. Ele salta de um prédio a outro em um piscar de olhos, e sua premonição aracnídea antecipa o perigo com bastante antecedência. No momento de agir, o Homem-Aranha recorre a Bio-Teia, que ele desenvolveu, baseada em teias de aranha que lhe permitem não só se pendurar em qualquer objeto como também atravessar a cidade em grande velocidade." />
                     </StackLayout>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="color_black"/>
+                    <Image Source="https://raw.githubusercontent.com/viniciusns94/ImagensApps/master/Herois_marvel/homem-de-ferro.jpg" WidthRequest="160" HeightRequest="160" />
                     <StackLayout>
                         <Label VerticalOptions="EndAndExpand" FontSize="Medium" Text="Nome: Homem de Ferro"/>
-                        <Label VerticalOptions="StartAndExpand" Text="Descrição: O líder dos Vingadores é invencível: dotado de uma inteligência fora do comum, o super-herói conseguiu seus poderes desenvolvendo uma armadura infalível com resposta imediata diante de um mero impulso nervoso, como se fosse uma extensão natural de seu corpo. Graças a ela, o Homem de Ferro pode travar combates corpo a corpo com pouquíssimas chances de sair ferido. Sua segunda pele é feita a partir de uma superliga de metais e polímeros plásticos. Ela lhe dá condições de voar, produz alterações extremas no estado das coisas e possui raios de ataque e defesa, armas de fogo, sistema táctico a laser, campo energético concentrado e eletromagnetismo."/>
+                        <local:CustomLabel_ FontSize="Small" Text="Descrição: O líder dos Vingadores é invencível: dotado de uma inteligência fora do comum, o super-herói conseguiu seus poderes desenvolvendo uma armadura infalível com resposta imediata diante de um mero impulso nervoso, como se fosse uma extensão natural de seu corpo. Graças a ela, o Homem de Ferro pode travar combates corpo a corpo com pouquíssimas chances de sair ferido. Sua segunda pele é feita a partir de uma superliga de metais e polímeros plásticos. Ela lhe dá condições de voar, produz alterações extremas no estado das coisas e possui raios de ataque e defesa, armas de fogo, sistema táctico a laser, campo energético concentrado e eletromagnetismo."/>
                     </StackLayout>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="color_black"/>
+                    <Image Source="https://raw.githubusercontent.com/viniciusns94/ImagensApps/master/Herois_marvel/wolverine.png" WidthRequest="160" HeightRequest="160" />
                     <StackLayout>
                         <Label VerticalOptions="EndAndExpand" FontSize="Medium" Text="Nome: Wolverine"/>
-                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Descrição: O Wolverine é uma verdadeira maravilha da ciência: com garras retráteis nas mãos feitas de material indestrutível, ele é um organismo vivo que se recupera de qualquer dano físico em fração de segundos. Em um mundo dominado por poderes da mente, o Wolverine resiste a quase tudo, pois seus sentidos são tão afiados quanto suas garras. Os bandidos sabem que quanto mais raivoso, mais seus poderes se potencializam"/>
+                        <local:CustomLabel_ FontSize="Small" Text="Descrição: O Wolverine é uma verdadeira maravilha da ciência: com garras retráteis nas mãos feitas de material indestrutível, ele é um organismo vivo que se recupera de qualquer dano físico em fração de segundos. Em um mundo dominado por poderes da mente, o Wolverine resiste a quase tudo, pois seus sentidos são tão afiados quanto suas garras. Os bandidos sabem que quanto mais raivoso, mais seus poderes se potencializam"/>
                     </StackLayout>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="color_black"/>
+                    <Image Source="https://raw.githubusercontent.com/viniciusns94/ImagensApps/master/Herois_marvel/hulk.png" WidthRequest="160" HeightRequest="160" />
                     <StackLayout>
                         <Label VerticalOptions="EndAndExpand" FontSize="Medium" Text="Nome: Incrível Hulk"/>
-                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Descrição: O Incrível Hulk conta com uma forca incalculável. Movido pela fúria, esse mutante radioativo suporta temperaturas para lá de extremas: de -150 graus a 600 graus, sem sofrer qualquer reação na pele."/>
+                        <local:CustomLabel_ FontSize="Small" Text="Descrição: O Incrível Hulk conta com uma forca incalculável. Movido pela fúria, esse mutante radioativo suporta temperaturas para lá de extremas: de -150 graus a 600 graus, sem sofrer qualquer reação na pele."/>
                     </StackLayout>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="color_black"/>
+                    <Image Source="https://raw.githubusercontent.com/viniciusns94/ImagensApps/master/Herois_marvel/Thor.png" WidthRequest="160" HeightRequest="160" />
                     <StackLayout>
-                        <Label VerticalOptions="EndAndExpand" FontSize="Medium" Text="Nome: Thor"/>
-                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Descrição: O deus e defensor dos Asgardianos é o segundo membro dos Vingadores a ocupar o pedestal dos super-heróis. Misto de divindade e super-herói, Thor e seu martelo Mjölnir estão sempre aptos a governar a matéria e a energia do cosmos."/>
+                        <Label VerticalOptions="EndAndExpand" FontSize="Medium" Text="Nome: Thor" WidthRequest="160" HeightRequest="160" />
+                        <local:CustomLabel_ FontSize="Small" Text="Descrição: O deus e defensor dos Asgardianos é o segundo membro dos Vingadores a ocupar o pedestal dos super-heróis. Misto de divindade e super-herói, Thor e seu martelo Mjölnir estão sempre aptos a governar a matéria e a energia do cosmos."/>
                     </StackLayout>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="color_black"/>
+                    <Image Source="https://raw.githubusercontent.com/viniciusns94/ImagensApps/master/Herois_marvel/pantera-negra.png" WidthRequest="160" HeightRequest="160" />
                     <StackLayout>
                         <Label VerticalOptions="EndAndExpand" FontSize="Medium" Text="Nome: Pantera Negra"/>
-                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Descrição: O rei T'Challa de Wakanda. Visto pela primeira vez na sequência de Capitão América, o personagem usa a tecnologia avançada de Wakanda para proteger seu povo de seus inimigos. Além disso, seu núcleo foi fundamental na última batalha contra Thanos."/>
+                        <local:CustomLabel_ FontSize="Small" Text="Descrição: O rei T'Challa de Wakanda. Visto pela primeira vez na sequência de Capitão América, o personagem usa a tecnologia avançada de Wakanda para proteger seu povo de seus inimigos. Além disso, seu núcleo foi fundamental na última batalha contra Thanos."/>
                     </StackLayout>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="color_black"/>
+                    <Image Source="https://raw.githubusercontent.com/viniciusns94/ImagensApps/master/Herois_marvel/dr-estranho.png" WidthRequest="160" HeightRequest="160" />
                     <StackLayout>
                         <Label VerticalOptions="EndAndExpand" FontSize="Medium" Text="Nome: Dr. Estranho"/>
-                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Descrição: De cirurgião narcisista a mestre das artes místicas. Em seu filme solo acompanhamos a evolução do personagem que o tornou uma das peças chaves na luta contra Thanos."/>
+                        <local:CustomLabel_ FontSize="Small" Text="Descrição: De cirurgião narcisista a mestre das artes místicas. Em seu filme solo acompanhamos a evolução do personagem que o tornou uma das peças chaves na luta contra Thanos."/>
                     </StackLayout>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="color_black"/>
+                    <Image Source="https://raw.githubusercontent.com/viniciusns94/ImagensApps/master/Herois_marvel/capitao-America.png" WidthRequest="160" HeightRequest="160" />
                     <StackLayout>
                         <Label VerticalOptions="StartAndExpand" FontSize="Medium" Text="Nome: Capitão América" />
-                        <Label VerticalOptions="EndAndExpand" FontSize="Small" Text="Descrição: O clássico herói americano. O capitão é um soldado fora de seu tempo, uma poderosa arma viva, e um dos grandes símbolos do Universo Marvel."/>
+                        <local:CustomLabel_ FontSize="Small" Text="Descrição: O clássico herói americano. O capitão é um soldado fora de seu tempo, uma poderosa arma viva, e um dos grandes símbolos do Universo Marvel."/>
                     </StackLayout>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="color_black"/>
+                    <Image Source="https://raw.githubusercontent.com/viniciusns94/ImagensApps/master/Herois_marvel/loki.png" WidthRequest="160" HeightRequest="160" />
                     <StackLayout>
-                        <Label VerticalOptions="StartAndExpand"  FontSize="Medium" Text="Nome:Loki"/>
-                        <Label VerticalOptions="EndAndExpand" FontSize="Small" Text="Descrição: O irmão de Thor .Com poderes de telepatia, transmutação e força sobre-humana, Loki tem atributos e carisma para conquistar a décima posição."/>
+                        <Label VerticalOptions="StartAndExpand" FontSize="Medium" Text="Nome: Loki"/>
+                        <local:CustomLabel_ FontSize="Small" Text="Descrição: O irmão de Thor .Com poderes de telepatia, transmutação e força sobre-humana, Loki tem atributos e carisma para conquistar a décima posição."/>
                     </StackLayout>
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal">
-                    <Image Source="color_black"/>
+                    <Image Source="https://raw.githubusercontent.com/viniciusns94/ImagensApps/master/Herois_marvel/capita-marvel.png" WidthRequest="160" HeightRequest="160" />
                     <StackLayout>
                         <Label VerticalOptions="EndAndExpand" FontSize="Medium" Text="Nome: Capitã Marvel"/>
-                        <Label VerticalOptions="StartAndExpand" FontSize="Small" Text="Descrição: Carol Danvers, se torna uma dos heroínas mais poderosas do universo. Quando uma guerra galáctica entre duas raças alienígenas atinge a Terra, Danvers encontra a si mesma e um pequeno grupo de aliados no centro do turbilhão."/>
+                        <local:CustomLabel_ FontSize="Small" Text="Descrição: Carol Danvers, se torna uma dos heroínas mais poderosas do universo. Quando uma guerra galáctica entre duas raças alienígenas atinge a Terra, Danvers encontra a si mesma e um pequeno grupo de aliados no centro do turbilhão."/>
                     </StackLayout>
                 </StackLayout>
                 

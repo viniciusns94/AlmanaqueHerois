@@ -39,7 +39,13 @@ namespace AlmanaqueHerois
 
         private void ButtonSair_Clicked(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch
+            {
+            }
         }
     }
 }

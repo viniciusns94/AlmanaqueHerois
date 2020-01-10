@@ -9,12 +9,11 @@
 
     <StackLayout Margin="8">
         <Image Source="https://qph.fs.quoracdn.net/main-qimg-04c2d1e8ebfef5a5fdb975f5dd67b758"/>
-        <Button x:Name="ButtonMainPageMarvelHerois" Text="Marvel Heróis" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Clicked="ButtonMainPageMarvelHerois_Clicked"/>
-        <Button x:Name="ButtonMainPageMarvelViloes" Text="Marvel Vilões" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Clicked="ButtonMainPageMarvelViloes_Clicked"/>
-        <Button x:Name="ButtonMainPageDCHerois" Text="DC Heróis" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Clicked="ButtonMainPageDCHerois_Clicked"/>
-        <Button x:Name="ButtonMainPageDCViloes" Text="DC Vilões" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Clicked="ButtonMainPageDCViloes_Clicked"/>
-        <Button x:Name="ButtonSair" Text="Sair" Clicked="ButtonSair_Clicked"/>
-        <Image Source="http://geomatriculas.com.br/images/logoUnidesk.png"/>
+        <Button x:Name="ButtonMainPageMarvelHerois" TextColor="White" Text="Marvel Heróis" BackgroundColor="Purple" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="5" Clicked="ButtonMainPageMarvelHerois_Clicked"/>
+        <Button x:Name="ButtonMainPageMarvelViloes" TextColor="White" Text="Marvel Vilões" BackgroundColor="Orange" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="5" Clicked="ButtonMainPageMarvelViloes_Clicked"/>
+        <Button x:Name="ButtonMainPageDCHerois" TextColor="White" Text="DC Heróis" BackgroundColor="Crimson" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="5" Clicked="ButtonMainPageDCHerois_Clicked"/>
+        <Button x:Name="ButtonMainPageDCViloes" TextColor="White" Text="DC Vilões" BackgroundColor="DarkBlue" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="5" Clicked="ButtonMainPageDCViloes_Clicked"/>
+        <Button x:Name="ButtonSair" Text="Sair" TextColor="Red" BackgroundColor="White" Clicked="ButtonSair_Clicked" VerticalOptions="End"/>
     </StackLayout>
 
 </ContentPage>
