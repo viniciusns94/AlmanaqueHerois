@@ -41,7 +41,7 @@ namespace AlmanaqueHerois
         {
             try
             {
-
+                System.Diagnostics.Process.GetCurrentProcess().Kill();
             }
             catch
             {
